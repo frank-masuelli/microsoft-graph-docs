@@ -26,11 +26,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 ### Permissions acting on other users
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:---------------------------------------|:-------------------------|
-| Delegated (work or school account)     | UserAuthenticationMethod.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | UserAuthenticationMethod.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "softwareoathauthenticationmethod_delete_2" } -->
+[!INCLUDE [permissions-table](../includes/permissions/softwareoathauthenticationmethod-delete-2-permissions.md)]
 
 [!INCLUDE [rbac-authentication-methods-apis-write-others](../includes/rbac-for-apis/rbac-authentication-methods-apis-write-others.md)]
 
