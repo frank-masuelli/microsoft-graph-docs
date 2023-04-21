@@ -1540,6 +1540,42 @@ For more complex scenarios involving multiple permissions, see [Permission scena
 
 ---
 
+## Multi-Tenant Orgganization permissions
+
+#### Delegated permissions
+
+|   Permission    |  Display String   |  Description | Admin Consent Required | Microsoft Account supported |
+|:----------------|:------------------|:-------------|:-----------------------|:--------------|
+| _MultiTenantOrganization.ReadWrite.All_ | Read/write multi-tenant organizations | Allows the app to read and write multi-tenant organization details and tenants. | Yes | No |
+| _MultiTenantOrganization.Read.All_ | Read multi-tenant organizations | Allows the app to read multi-tenant organization details and tenants. | Yes | No |
+| _MultiTenantOrganization.ReadBasic.All_ | Read multi-tenant organization basic info | Allows the app to read multi-tenant organization basic details and active tenants. | Yes | No |
+
+#### Application permissions
+
+|   Permission    |  Display String   |  Description | Admin Consent Required |
+|:----------------|:------------------|:-------------|:-----------------------|
+| _MultiTenantOrganization.ReadWrite.All_ | Read/write multi-tenant organizations | Allows the app to read and write multi-tenant organization details and tenants. | Yes | No |
+| _MultiTenantOrganization.Read.All_ | Read multi-tenant organizations | Allows the app to read multi-tenant organization details and tenants. | Yes | No |
+| _MultiTenantOrganization.ReadBasic.All_ | Read multi-tenant organization basic info | Allows the app to read multi-tenant organization basic details and active tenants. | Yes | No |
+
+### Example usage
+
+#### Delegated
+
+* _MultiTenantOrganization.ReadWrite.All_: Create a multi-tenant organization (`POST tenantRelations/multiTenantOrganization`).
+* _MultiTenantOrganization.ReadWrite.All_: Read your multi-tenant organization (`GET tenantRelations/multiTenantOrganization`).
+* _MultiTenantOrganization.ReadWrite.All_: Update your multi-tenant organization (`PATCH tenantRelations/multiTenantOrganization`).
+* _MultiTenantOrganization.ReadWrite.All_: Add tenants to your multi-tenant organization (`POST tenantRelations/multiTenantOrganization/tenants`).
+
+#### Application
+
+* _MultiTenantOrganization.ReadWrite.All_: Create a multi-tenant organization (`POST tenantRelations/multiTenantOrganization`).
+* _MultiTenantOrganization.ReadWrite.All_: Read your multi-tenant organization (`GET tenantRelations/multiTenantOrganization`).
+* _MultiTenantOrganization.ReadWrite.All_: Update your multi-tenant organization (`PATCH tenantRelations/multiTenantOrganization`).
+* _MultiTenantOrganization.ReadWrite.All_: Add tenants to your multi-tenant organization (`POST tenantRelations/multiTenantOrganization/tenants`).
+
+---
+
 ## Notes permissions
 
 #### Delegated permissions
