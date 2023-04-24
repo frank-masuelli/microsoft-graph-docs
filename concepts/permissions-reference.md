@@ -1540,7 +1540,7 @@ For more complex scenarios involving multiple permissions, see [Permission scena
 
 ---
 
-## Multi-Tenant Orgganization permissions
+## Multi-Tenant Organization permissions
 
 #### Delegated permissions
 
@@ -1554,9 +1554,9 @@ For more complex scenarios involving multiple permissions, see [Permission scena
 
 |   Permission    |  Display String   |  Description | Admin Consent Required |
 |:----------------|:------------------|:-------------|:-----------------------|
-| _MultiTenantOrganization.ReadWrite.All_ | Read/write multi-tenant organizations | Allows the app to read and write multi-tenant organization details and tenants. | Yes | No |
-| _MultiTenantOrganization.Read.All_ | Read multi-tenant organizations | Allows the app to read multi-tenant organization details and tenants. | Yes | No |
-| _MultiTenantOrganization.ReadBasic.All_ | Read multi-tenant organization basic info | Allows the app to read multi-tenant organization basic details and active tenants. | Yes | No |
+| _MultiTenantOrganization.ReadWrite.All_ | Read/write multi-tenant organizations | Allows the app to read and write multi-tenant organization details and tenants. | Yes |
+| _MultiTenantOrganization.Read.All_ | Read multi-tenant organizations | Allows the app to read multi-tenant organization details and tenants. | Yes |
+| _MultiTenantOrganization.ReadBasic.All_ | Read multi-tenant organization basic info | Allows the app to read multi-tenant organization basic details and active tenants. | Yes |
 
 ### Example usage
 
